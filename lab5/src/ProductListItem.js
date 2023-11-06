@@ -1,21 +1,13 @@
 import { useSelector, useDispatch } from "react-redux";
 import { toggleLiked } from "./redux/actions";
-import { useState } from "react";
 
 const ProductListItem = ({ product }) => {
 	const likedProducts = useSelector((state) => state.likedProducts);
 	const dispatch = useDispatch();
 	const isLiked = likedProducts.includes(product.id);
-	const [isInCart, setIsInCart] = useState(false);
 
 	const handleAddToBasket = (productId) => {
-		if (isInCart) {
-			console.log("Removed from Basket");
-		} else {
-			console.log("Added to Basket");
-		}
-
-		setIsInCart((prevState) => !prevState); // Toggle the state
+		console.log("Added to Basket");
 	};
 
 	return (
@@ -32,15 +24,10 @@ const ProductListItem = ({ product }) => {
 			</span>
 
 			<span
-				style={{ color: isInCart ? "blue" : "grey" }}
+				style={{ color: "blue" }}
 				onClick={() => handleAddToBasket(product.id)}
 			>
-				<i
-					className={`fas ${
-						isInCart ? "fa-shopping-cart" : "fa-cart-plus"
-					}`}
-					style={{ color: isInCart ? "blue" : "grey" }}
-				></i>
+				<i className={`fas fa-cart-plus`} style={{ color: "blue" }}></i>
 			</span>
 		</li>
 	);
