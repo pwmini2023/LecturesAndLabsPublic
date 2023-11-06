@@ -7,7 +7,7 @@ const ProductListItem = ({ product }) => {
 	const isLiked = likedProducts.includes(product.id);
 
 	const handleAddToBasket = (productId) => {
-		console.log("Added to Basket");
+		console.log(`Product with id ${productId} added to Basket`);
 	};
 
 	return (
