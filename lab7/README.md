@@ -1,6 +1,6 @@
 # Lab instructions
 
-[https://pw2022.react.edu.pl/2019/10/01/lab-8/](https://pw2022.react.edu.pl/2019/10/01/lab-8/)
+[https://pw2023.react.edu.pl/2019/10/01/lab-7-2/](https://pw2023.react.edu.pl/2019/10/01/lab-7-2/)
 
 # Getting Started with Create React App
 
