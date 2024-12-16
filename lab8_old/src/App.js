@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Provider } from "react-redux";
+import {Provider} from "react-redux";
 import Basket from "./Basket";
 import ProductsList from "./ProductsList";
 import LanguagePicker from "./LanguagePicker";

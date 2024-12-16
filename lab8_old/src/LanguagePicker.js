@@ -13,6 +13,7 @@ const LanguagePicker = (props) => {
 						<option value="en-US">English</option>
 						<option value="de-DE">Deutsch</option>
 						<option value="pl-PL">Polski</option>
+						<option value="fr-FR">Francais</option>
 					</select>
 				</div>
 			</div>

@@ -25,6 +25,19 @@ const productsData = {
 		{ id: 10, title: "Stuhl" },
 		// Add more products as needed
 	],
+	"fr-FR": [
+		{ id: 1, title: "Livre" },
+		{ id: 2, title: "Stylo" },
+		{ id: 3, title: "Ordinateur portable" },
+		{ id: 4, title: "Casque" },
+		{ id: 5, title: "Souris" },
+		{ id: 6, title: "Clavier" },
+		{ id: 7, title: "Smartphone" },
+		{ id: 8, title: "Tablette" },
+		{ id: 9, title: "Moniteur" },
+		{ id: 10, title: "Chaise" },
+		// Add more products as needed
+	],
 	"pl-PL": [
 		{ id: 1, title: "Książka" },
 		{ id: 2, title: "Długopis" },
